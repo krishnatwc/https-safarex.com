@@ -461,7 +461,7 @@ img.ks-demo-lazy {display: block;width: 100%;height: auto;}
 .calendarDatein .BoxPageLoc,
 .calendarDateout .BoxPageLoc{font-size: 16px;color: #848383;}
 .btnHotelrel{clear: both;overflow: hidden;position: fixed;bottom: -3px;left: 0px;right: 0px;}
-.btnHotelrel a{display: inline-block;text-align: center;width: 100%;color: #fff;padding: 15px 0px;font-size: 18px;background-color:#fd9800;}	
+.btnHotelrel a{display: inline-block;text-align: center;width: 100%;color: #fff;padding: 15px 0px;font-size: 18px;background-color:#000000;}	
 .HotelDiVBox-last .HotelDiVBoxRight{border-bottom: 0px;}
 #searchHotel_frm {margin-top:30px; }
 .boxleftDse{}

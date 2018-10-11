@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.TADVH.ean" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>TRAVELLABS252</name>
+<widget id="uni-booking.com" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>UNIBOOKING</name>
     <description> Find your hotels and flights.</description>
-    <author email="support@travellabs252.com" href="http://travellabs252.com/"> Travellabs252 Team</author>
+    <author email="admin@uni-booking.com" href="https://uni-booking.com/">UNIBOOKING</author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />

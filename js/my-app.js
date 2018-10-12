@@ -1,5 +1,5 @@
 // Initialize your app
-var flyApp = new Framework7({
+var BookflyApp = new Framework7({
     modalTitle: 'My App',
     // If it is webapp, we can enable hash navigation:
     pushState: true,
@@ -29,10 +29,10 @@ var flyApp = new Framework7({
 	
     // Hide and show indicator during ajax requests
     onAjaxStart: function (xhr) {
-        flyApp.showIndicator();
+        BookflyApp.showIndicator();
     },
     onAjaxComplete: function (xhr) {
-        flyApp.hideIndicator();
+        BookflyApp.hideIndicator();
     },
 
 });
@@ -40,17 +40,17 @@ var flyApp = new Framework7({
 // Export selectors engine
 var $$ = Dom7;
 // Add view
-var mainView = flyApp.addView('.view-main', {
+var mainView = BookflyApp.addView('.view-main', {
    domCache: true,
 });
 
 
 var RequestURL ='https://www.adivaha.com/demo/MobAppRequest';
-var TPHotelUrl ='https://hotels.flyiniram.com/hotels';
-var TPFlightUrl ='https://flightsapp.flyiniram.com/flights';
-var marker='181485';
+var TPHotelUrl ='https://apphotel.bookingfly.net/hotels';
+var TPFlightUrl ='https://appflight.bookingfly.net/flights';
+var marker='155364';
 
-flyApp.onPageInit('index', function (page) {
+BookflyApp.onPageInit('index', function (page) {
 $$('.pageFlashLoaderKK').show();	
 setTimeout(function(){ $$('.pageFlashLoaderKK').hide('slow'); }, 3000);	
 
@@ -133,7 +133,7 @@ if(page.name=='search-hotels'){
 	var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 	
     var today =new Date();
-	var calendarRange = flyApp.calendar({
+	var calendarRange = BookflyApp.calendar({
     input: '#appCalendar',
     dateFormat: 'M dd yyyy',
     rangePicker: true,
@@ -323,7 +323,7 @@ if(page.name=='search-hotels'){
   
   
   /*=== Auto suggetion ===*/
-  var autocompleteDropdownAjax = flyApp.autocomplete({
+  var autocompleteDropdownAjax = BookflyApp.autocomplete({
 	opener: $$('#autocomplete-standalone-popup'),
     openIn: 'popup',
 	backOnSelect: true,
@@ -380,8 +380,8 @@ if(page.name=='search-hotels'){
   
    var hotelObject = [];
    $$('.findHotelResults').on('click', function(e){
-	   var formData = flyApp.formToData('#searchHotel_frm');
-	   flyApp.formStoreData('HotelRequestData',formData);
+	   var formData = BookflyApp.formToData('#searchHotel_frm');
+	   BookflyApp.formStoreData('HotelRequestData',formData);
 	  
 	 var adults =$$('#adults_0').val(); 
 	 var childs =$$('#childs_0').val();
@@ -430,7 +430,7 @@ if(page.name=='search-flights'){
     var weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 	var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     var today =new Date();
-	var calendarRange = flyApp.calendar({
+	var calendarRange = BookflyApp.calendar({
 	input: '#appCalendar',
 	dateFormat: 'M dd yyyy',
 	rangePicker: true,
@@ -455,7 +455,7 @@ if(page.name=='search-flights'){
 	   }
 	});	
    /*=== Activity Auto suggetion ===*/	
-   var autocompleteDropdownAjax = flyApp.autocomplete({
+   var autocompleteDropdownAjax = BookflyApp.autocomplete({
 	opener: $$('#autocomplete-standalone-popup'),
 	openIn: 'popup',
 	backOnSelect: true,
@@ -501,7 +501,7 @@ if(page.name=='search-flights'){
 	}
   });
 
-  var autocompleteDropdownAjax = flyApp.autocomplete({
+  var autocompleteDropdownAjax = BookflyApp.autocomplete({
 	opener: $$('#autocomplete-standalone-popup-to'),
 	openIn: 'popup',
 	backOnSelect: true,

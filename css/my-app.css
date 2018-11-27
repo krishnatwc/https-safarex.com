@@ -1,5 +1,5 @@
 * {box-sizing: border-box;outline: 0;border-collapse: collapse;}
-.navbar{background-color: #03A9F4  !important;}
+.navbar{background-color:#192044 !important;}
 .HomeCard{}
 .card-content-inner1{position: absolute;top: 127px;left: 0px;right: 0px;overflow-y: hidden;}
 .titeltext{font-size:15px;color:#192044;padding:7px 7px 7px 8px;font-weight:500;text-align:center}
@@ -13,7 +13,7 @@
     padding: 0px;
     width: 100%;
     float: left;
-    padding-top: 7rem;
+    padding-top:2rem;
     display: flex;
     justify-content: center;
     padding-bottom: 0px;
@@ -37,14 +37,14 @@
 .buttonhomecard .card-content{width: 80%;margin: 0 auto;}
 	
 .contentblock1 li a .displaysection {
-    display: none;
+    
     font-size: 13px;   /* margin-top: 10px;*/
 }
 
 .buttonhomecard{    background-color: transparent;
       float: left;
     width: 100%;
-    margin: 42px 0px 0px 0px;
+        margin: 69px 0px 0px 0px;
     box-shadow: none;
 ;}
 .carBackColor{/*position: relative;top: 8em;    margin-top: 57px;*/}
@@ -73,7 +73,7 @@
 
 
 img.ks-demo-lazy {display: block;width: 100%;height: auto;}
-.boxPage-title{color: #fff;background-color: #393939;margin: 0px;padding: 16px;text-align: left;position: relative; padding-left: 44px;}
+.boxPage-title{color: #fff;background-color: #1b559e;margin: 0px;padding: 16px;text-align: left;position: relative; padding-left: 44px;}
 .BoxPageForm{width: 100%;float: left;}
 .BoxPageBorder-bottom{border-bottom: 1px solid #ccc;padding-bottom: 12px;margin-top: 18px;}
 .BoxPageDelhi{ font-size: 20px;color: #000;font-weight: 550;}	
@@ -175,7 +175,7 @@ img.ks-demo-lazy {display: block;width: 100%;height: auto;}
 .cardDiscoverLowest>.card-content>.list-block>ul>li>a>.item-inner>.item-title{font-size: 16px;color: #000;}
 .cardDiscoverLowest>.card-content>.list-block>ul>li>a>.item-inner:after{height: 0px;}
 /*.pageBackgroundColor{background: #edf0f5;}*/
-.pageBackgroundColor{    background: url(../img/homebackImg1.jpg) center no-repeat;
+.pageBackgroundColor{    background: url(../img/homebackImg1.jpeg) center no-repeat;
     background-size: cover;
    }
 .pageBackgroundColor .home-page-padding	{    background-color: transparent;}
@@ -272,7 +272,7 @@ img.ks-demo-lazy {display: block;width: 100%;height: auto;}
 #hotelResults ul:before{height: 0px;}
 #hotelResults .item-content{padding-left: 0px;    padding: 0px;}
 #hotelResults .item-inner{padding:0px;margin-left: 5px;}
-.btn_DoneRooms{width: 97%;background-color:#FF9800;padding: 11px;box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);text-align: center;margin: 0 auto;border-radius: 2px;margin-bottom: 1em;    color: #fff;
+.btn_DoneRooms{width: 97%;background-color: #192044;padding: 11px;box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);text-align: center;margin: 0 auto;border-radius: 2px;margin-bottom: 1em;    color: #fff;
     font-size: 18px;text-transform: uppercase;}
 .btn_DoneRooms a{color: #fff;    font-size: 18px;}
 
@@ -433,7 +433,7 @@ img.ks-demo-lazy {display: block;width: 100%;height: auto;}
 .content-block3{border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;display:none;}
 .PropertyAmenetiesstyle{font-size:13px;}
 .starratcolor{color:green;}
-.navbar1{background-color: #03A9F4 !important;height: 100%;}
+.navbar1{background-color: #545454;height: 100%;}
 .confirmation_header_booking{margin-left: 15px;font-size: 20px;font-weight: 600;margin-top: 20px;margin-bottom: 18px;}
 .confirmation_Tariff-Details{border: 1px solid #ddd;    margin: 15px 15px 15px 15px;}
 .content-block4{border-top:1px solid #ddd;}
@@ -458,7 +458,7 @@ img.ks-demo-lazy {display: block;width: 100%;height: auto;}
     width: 100%;
     display: inline-block;}
 .HotelDiVBoxRight .PseitelDes{margin: 0px;font-size: 22px; color: #000;}
-.HotelDiVBoxLeft .fa{font-size: 18px;position: relative;top: 16px;}
+.HotelDiVBoxLeft .fa{font-size: 18px;position: relative;top: 30px;}
 .paddingNOne{padding:0px;margin: 0px;}
 .calendarDatein{float: left;width: 47%;border-right: 1px solid #c2c2c2;}
 .calendarDateout{float: right;width: 48%;border-right: 0px solid #c2c2c2;}
@@ -597,9 +597,9 @@ margin-top: 10%;}
 .search-flightspage .navbar-inner{box-shadow: 0 2px 12px rgba(0,0,0,.175);}	
 .search-flightspage .page-content{padding-top: 56px !important;}
 .BontentBlockDrawer{padding-top: 0px !important;}	
-.BontentBlockDrawer .panel-background{background:url() center no-repeat;background-size: cover;margin: 0px;min-height: 200px;position:relative;border-bottom: 2px solid #ddd;z-index:22;}	
+.BontentBlockDrawer .panel-background{background:url() center no-repeat;background-size: cover;margin: 0px;min-height: 200px;position:relative;border-bottom: 0.9px solid #ddd;    z-index: 99;}	
 .BontentBlockDrawer .content-block p{margin: 0px;position: relative;z-index: 9;}	
-.overlayContent{position: absolute;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;z-index: 2;            background: rgba(0, 0, 0, 0.7);
+.overlayContent{position: absolute;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;z-index: 2;    background: rgba(47, 69, 106,0.9);
     cursor: pointer;
     }
 .hotelsicons{    padding: 18px 32px !important;}	
@@ -608,15 +608,15 @@ margin-top: 10%;}
 .panel-background .close-panel .fa{font-size: 25px;color: #fff;font-weight: 100;position: relative;top: 10px;}
 .list-menu-mobile{/*position: relative;
     width: 100%;
-    height:457px;
+    height: 457px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-      background-color: rgba(0, 0, 0, 0.7);*/}	
+    background-color: rgba(54, 81, 121, 0.9);*/}	
 .list-menu-mobile ul{list-style: none;margin: 0px;padding: 0px;}
-.list-menu-mobile ul li{    position: relative;
-    z-index: 99;}
+.list-menu-mobile ul li{z-index: 999;
+    position: relative;}
 .list-menu-mobile ul li a{    display: inline-block;
     padding: 8px;
     border-bottom: 0px solid #f3f3f3;
@@ -625,7 +625,8 @@ margin-top: 10%;}
     color: #fff;
     font-size: 17px;}
 .list-menu-mobile ul li a .fa{padding: 0px 13px 0px 0px;font-size: 13px;text-transform: capitalize;}
-.overlayDivhome{position: absolute;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;  background-color: rgba(0, 0, 0, 0.5);z-index: 0;}
+.overlayDivhome{position: absolute;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;
+    z-index: 0;}
 .home-page-padding{position:relative;z-index: 9;}	
 .login-screen-navbar{box-shadow: 0 2px 12px rgba(0,0,0,.175);}
 .login-screen-content{padding-top: 56px !important;background: url(../img/mobile_back.png) center no-repeat;background-size: cover;margin: 0px;}
@@ -865,8 +866,8 @@ margin-top: 10%;}
 .history-home-text1{color: #fff;font-size: 13px;}
 .history-home-text2{    color: #fff;
     font-size: 13px;
-    width: 50%;
-    float: left;}
+    float: left;
+    width: 36%;}
 .history-home-text3{color: #fff;font-size: 13px;}
 .history-home-text4{color: #fff;font-size: 13px;}
 
@@ -925,15 +926,15 @@ margin-top: 10%;}
 .language-detail-page .toolbar-inner a{       border-right: 1px solid #8BC34A; border-left: 0px solid #8BC34A;text-transform: capitalize;color: #fff;}
 
 
-.Searchall{text-align: center;color: #fff;font-size: 17px;}
+.Searchall{text-align: center;color: #fff;font-size: 16px;    padding: 3em 2em;
+    clear: both;}
 .contentblock1 li a{      
-        float: left;
+       float: left;
     margin: 0 auto;
     display: inline-block;
-    
-    background-color: rgba(3, 169, 244, 0.7);
+    background-color: rgb(12, 133, 224,0.5);
     border-radius: 5px;
-    border: 1px solid #86c7fd;
+    border: 1px solid #fff;
     color: #fff !important;
 }
 
@@ -941,21 +942,21 @@ margin-top: 10%;}
 .history-recents{}
 .history-recents-left{float:left;width:100%;}
 .deltopatfri1{float: left;
-    width: 42%;}
-.deltopatfri2{    float: right;
-    width: 55%;}
+    width: 50%;}
+.deltopatfri2{float: right;
+    width: 50%;}
 /*
 .history-recents-right{float:right;width:30%;}*/
 .deltopatfri{float: left;width: 100%;}
 .deltopatfri span{color: #fff;font-size: 12px;}
 .deltopatfri span .fa{    padding: 0px 0px;}
-.economyadlet{padding-left: 12px;}
+.economyadlet{padding-left: 5px;}
 .economyadlet .fa{}
 
 .lds-grid-loading{    position: fixed;
     z-index: 9999;
     text-align: center;
-    background-color: #000;
+    background-color: #1e4178;
     height: 100%;
     width: 100%;}
 

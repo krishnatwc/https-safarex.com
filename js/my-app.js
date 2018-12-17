@@ -84,7 +84,7 @@ var htmlFlight ='<div class="history-home-page-main-left">'+
 				'<div class="history-home-page-main-right">'+
 				  '<div class="history-recents">'+
 						'<div class="history-recents-left">'+
-						 '<a href="'+TPFlightUrl+'?marker='+marker+'&origin_name=Delhi,%20India&origin_iata=DEL&destination_name=Goa,%20India&destination_iata=GOI&depart_date='+checkIn+'&return_date=&Flights_Return_direct=enable&with_request=true&adults=1&children=0&infants=0&trip_class=0&currency=AED&locale=en&one_way=true&ct_guests=1passenger&ct_rooms=1" class="link external"><div class="deltopatfri">'+
+						 '<a href="'+TPFlightUrl+'?marker='+marker+'&origin_name=Dubai,%20United%20Arab%20Emirates&origin_iata=DXB&destination_name=London,%20United%20Kingdom&destination_iata=LON&depart_date='+checkIn+'&return_date=&Flights_Return_direct=enable&with_request=true&adults=1&children=0&infants=0&trip_class=0&currency=AED&locale=en&one_way=true&ct_guests=1passenger&ct_rooms=1" class="link external"><div class="deltopatfri">'+
 							'<div class="deltopatfri1">'+
 								'<span>DEl</span> <span><i class="fa fa-arrow-right"></i></span> <span>GOI</span>'+
 								'</div>'+
@@ -92,9 +92,9 @@ var htmlFlight ='<div class="history-home-page-main-left">'+
 								'<span>'+startDate_txt+'</span>'+
 							'</div>'+
 							'</div></a>'+
-							'<a href="'+TPFlightUrl+'?marker='+marker+'&origin_name=Delhi,%20India&origin_iata=DEL&destination_name=Mumbai,%20India&destination_iata=BOM&depart_date='+checkIn+'&return_date=&Flights_Return_direct=enable&with_request=true&adults=1&children=0&infants=0&trip_class=0&currency=AED&locale=en&one_way=true&ct_guests=1passenger&ct_rooms=1" class="link external"><div class="deltopatfri">'+
+							 '<a href="'+TPFlightUrl+'?marker='+marker+'&origin_name=Dubai,%20United%20Arab%20Emirates&origin_iata=DXB&destination_name=London,%20United%20Kingdom&destination_iata=LON&depart_date='+checkIn+'&return_date=&Flights_Return_direct=enable&with_request=true&adults=1&children=0&infants=0&trip_class=0&currency=AED&locale=en&one_way=true&ct_guests=1passenger&ct_rooms=1" class="link external"><div class="deltopatfri">'+
 							'<div class="deltopatfri1">'+
-								'<span>DEL</span> <span><i class="fa fa-arrow-right"></i></span> <span>BOM</span>'+
+								'<span>DEl</span> <span><i class="fa fa-arrow-right"></i></span> <span>GOI</span>'+
 								'</div>'+
 									'<div class="deltopatfri2">'+
 								'<span>'+startDate_txt+'</span>'+
